@@ -1,0 +1,74 @@
+/* Estilos para la barra de navegación fija */
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos para la sección principal */
+.container {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    top: 100px;
+    text-align: center;
+    border: 2px red solid;
+}
+
+img {
+    max-width: 30%;
+
+}
+
+.texto1 {
+    position: absolute;
+    top: 10px;
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+
+.texto2{
+    position: absolute;
+    bottom: 20px;
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+img{
+    align-self: flex-end;
+}
+.boton {
+    position: absolute;
+    top: 50%;
+    align-self: flex-end;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Estilos para la lista con posicionamiento sticky */
+.sticky-list {
+    /*position: sticky;*/
+    top: 100px; /* Ajusta esta distancia según tus necesidades */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Agrega más estilos según tus preferencias para la imagen y otros elementos. */

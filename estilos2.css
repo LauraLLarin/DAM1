@@ -1,0 +1,124 @@
+*{
+    font-family: arial;
+}
+
+article{
+    border: 1px solid red;
+    margin-bottom: 100px;
+}
+
+/*div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid blue;
+    vertical-align:middle;
+    text-align: center;
+  }
+  */
+
+  /*DESPLIEGUE EN BLOQUE*/
+  .bloque div{						
+    display: block;
+}
+
+
+  /*DESPLIEGUE EN LINEA*/
+  .enlinea div{
+       display: inline-block;
+}
+
+
+  /*DESPLIEGUE EN TABLA*/
+.entable div{
+       display: table-cell;
+}
+
+
+/*POSICIONAMIENTO RELATIVO*/
+#relativo{
+       position: relative;
+}
+
+
+/*POSICIONAMIENTO ABSOLUTO*/
+#absoluto{
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       width: 120px;
+       height: 120px;
+}
+
+
+/*POSICIONAMIENTO FIJO*/
+#fijo{
+       position: fixed;
+       background: blue;
+       right: 100px;
+       top: 200px;
+}
+
+
+/*POSICIONAMIENTO FLOTANTE*/
+  .flotante{
+       height: 400px;
+       width: 100%;
+  }
+  
+  .flotante div{
+       float: left;
+  }
+
+  .flotante div:nth-child(2){
+       float: right;
+  }
+.abs{
+       background-color: blueviolet;
+       height: 30vh;
+       width: 100%;
+       position: absolute;
+}
+ul{
+       position: relative;
+}
+.container {
+       width: 300px;
+       height: 300px;
+       background-color: #eee;
+     }
+     
+     .relative-box {
+       position: relative;
+       width: 100px;
+       height: 100px;
+       background-color: #3498db;
+     }
+     
+     .absolute-box {
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       width: 60px;
+       height: 60px;
+       background-color: #e74c3c;
+     }
+     .absolute-box2 {
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       height: 40px;
+       width: 40px;
+       background-color: black;
+     }
+
+     .prueba{
+       height: 500px;
+       width: 500px;
+       border:2px solid blue;
+       align-items: center;
+      justify-content: end;
+     }
+     p{
+       text-align: center;
+     }
